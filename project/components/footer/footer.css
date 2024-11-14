@@ -1,0 +1,33 @@
+.footer-container {
+  background-color: #1a1a2e; /* Midnight blue */
+  padding: 20px 0;
+  color: #d1d1d1; /* Light gray text for readability */
+}
+
+.nav-link {
+  font-size: 14px;
+  text-decoration: none;
+  color: #d1d1d1;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #00aaff; /* Light blue on hover */
+}
+
+.social-icons .icon {
+  color: #d1d1d1;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: #00aaff; /* Matches hover effect of nav links */
+}
+
+.company-name {
+  font-size: 14px;
+  margin-top: 10px;
+  color: #a0a0a0; /* Slightly lighter gray for footer text */
+}

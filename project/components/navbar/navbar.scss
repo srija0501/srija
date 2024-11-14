@@ -1,0 +1,59 @@
+.navbar {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  overflow: hidden;
+  z-index: 500 !important;
+  transition: background-color 0.3s ease-in-out;
+
+  .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.6rem;
+
+    &:hover {
+      color: white !important;
+    }
+  }
+
+  .btn {
+    color: white !important; /* Ensure white text for Home and Hotels links */
+    font-weight: 500;
+    background: transparent !important;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: rgba(10, 10, 10, 0.3) !important;
+      color: white !important;
+    }
+
+    i {
+      font-size: 17px;
+      color: red;
+    }
+  }
+}
+
+.navbar.active {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  background-color: white !important;
+  color: black !important;
+  border-radius: 20px;
+  padding: 8px 20px;
+
+  &:hover {
+    background-color: rgba(10, 10, 10, 0.3) !important;
+    color: white !important;
+  }
+
+  i {
+    margin-left: 0.3rem;
+    font-size: 14px;
+  }
+}
