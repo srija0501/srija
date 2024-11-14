@@ -1,0 +1,37 @@
+.hotelDetailsContainer {
+    display: flex;
+    gap: 20px; /* Spacing between image and details */
+    align-items: flex-start; /* Align items at the top */
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Control the image size */
+  .hotelDetailsImg {
+    width: 100px; /* Adjust as needed */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Ensure the text content doesn't force the image to stretch */
+  .hotelDetailsInfo {
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .hotelDetailsInfo h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  .hotelDetailsInfo p {
+    font-size: 1rem;
+    color: #555;
+  }
+  .hotelDetailsImg
+  {
+    width: 120px; /* Reduced width */
+    height: 190px;
+  }
+  

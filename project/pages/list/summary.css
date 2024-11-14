@@ -1,0 +1,71 @@
+/* OrderSummary Container */
+.order-summary-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #ffffff; /* White Background */
+  color: #1e3a8a; /* Dark Blue Text */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+/* Heading Style */
+.order-summary-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1d4ed8; /* Vibrant Blue */
+  font-size: 28px;
+  border-bottom: 2px solid #3b82f6; /* Light Blue Border */
+  padding-bottom: 10px;
+}
+
+/* Paragraph Styling */
+.order-summary-container p {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #475569; /* Slate Blue for text */
+}
+
+/* Strong Tag for Labels */
+.order-summary-container p strong {
+  color:black; /* Light Blue for Labels */
+}
+
+/* Button Styling */
+.order-summary-container .btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #1d4ed8; /* Vibrant Blue Button */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.order-summary-container .btn:hover {
+  background-color: #2563eb; /* Slightly Darker Blue on Hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .order-summary-container {
+      padding: 20px;
+  }
+
+  .order-summary-container h2 {
+      font-size: 24px;
+  }
+
+  .order-summary-container p {
+      font-size: 16px;
+  }
+
+  .order-summary-container .btn {
+      font-size: 16px;
+  }
+}

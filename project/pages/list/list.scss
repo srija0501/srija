@@ -1,0 +1,92 @@
+/* Reset styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Container for the hotel list */
+.listContainer {
+  max-width: 1200px; /* Wider width for more space */
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Title Styling */
+.listContainer h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #333;
+}
+
+/* Hotel Cards Container */
+.listResult {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Hotel Card */
+.searchItem {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: box-shadow 0.3s;
+  width: 100%; /* Take full width */
+}
+
+.searchItem:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Hotel Image */
+.searchItem img {
+  width: 180px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+/* Hotel Info */
+.hotel-info {
+  flex: 1; /* Make it take available space */
+}
+
+.hotel-info h2 {
+  margin: 0 0 5px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+.hotel-info p {
+  margin: 0;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Book Now Button */
+.booking-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap; /* Keep the button text in one line */
+}
+
+.booking-btn:hover {
+  background-color: #0056b3;
+}
