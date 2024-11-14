@@ -1,0 +1,54 @@
+/* reserve.css */
+
+.reserve-container {
+    padding: 20px;
+  }
+  
+  .room-availability {
+    margin-top: 20px;
+  }
+  
+  .room-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between room cards */
+  }
+  
+  .room-card {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between image and details */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .room-image {
+    flex: 1; /* Allow image section to take equal space */
+  }
+  
+  .room-img {
+    width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .room-details {
+    flex: 2; /* Allow details section to take more space */
+  }
+  
+  .book-room-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-room-btn:hover {
+    background-color: #0056b3;
+  }
+  

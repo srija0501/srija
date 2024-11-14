@@ -1,0 +1,152 @@
+/* details.css */
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background color for contrast */
+}
+
+/* Container for hotel details */
+.hotel-details-container {
+  max-width: 1200px;
+  margin: 20px auto; /* Center the container */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff; /* White background for the card */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Row styles */
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Ensure responsive behavior */
+}
+
+/* Column styles */
+.col-md-6 {
+  flex: 1; /* Equal width for columns */
+  padding: 15px; /* Space between columns */
+}
+
+/* Hotel image styles */
+.hotel-img {
+  width: 100%;
+  height: 50%;
+  border-radius: 8px; /* Rounded corners */
+  margin-bottom: 15px; /* Space below the image */
+}
+
+/* Room card styles */
+.room-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 15px;
+  display: flex; /* Flexbox for room card */
+  background-color: #f5f5f5; /* Slightly different background */
+}
+
+/* Room image styles */
+.room-img {
+  width: 40%; 
+  height: auto;/* Adjust width for images */
+  object-fit: cover; /* Cover image */
+}
+
+/* Room info styles */
+.room-info {
+  padding: 15px; /* Space inside the room card */
+  flex: 1; /* Occupy remaining space */
+}
+
+/* Button styles */
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary button color */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.btn-success {
+  background-color: #28a745; /* Success button color */
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+/* Booking form styles */
+.booking-form {
+  border-top: 2px solid #007bff; /* Blue border on top */
+  padding: 20px; /* Increased padding for more space */
+  margin-top: 20px;
+  background-color: #f8f9fa; /* Light background for the form */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Input styles */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  padding: 10px; /* Increased padding for inputs */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 300px; /* Limit max width for inputs */
+  margin: 10px 0; /* Space around inputs */
+  transition: border-color 0.3s ease; /* Smooth transition for border */
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+  border-color: #007bff; /* Change border color on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Room selection button styles */
+.room-selection button {
+  padding: 5px 10px; /* Adjust padding for buttons */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Stack columns on small screens */
+  }
+
+  .col-md-6 {
+    width: 100%; /* Full width on small screens */
+  }
+
+  .hotel-img {
+    height: 250px; /* Fixed height for hotel image */
+    object-fit: cover; /* Cover image */
+  }
+
+  .room-img {
+    height: 100px; /* Fixed height for room images */
+    object-fit: cover; /* Cover image */
+  }
+
+  /* Adjust booking form padding for small screens */
+  .booking-form {
+    padding: 15px;
+  }
+}
